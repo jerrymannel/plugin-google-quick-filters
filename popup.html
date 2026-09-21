@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { font: 13px sans-serif; width: 460px; margin: 10px }
+  .row { display: flex; gap: 4px; margin-bottom: 4px }
+  .row input[type=text] { flex: 1; min-width: 0 }
+  .row input[type=color] { width: 32px; padding: 0 }
+</style>
+<div id="list"></div>
+<button id="add">+ Add filter</button>
+<p>First 5 show in the Gmail header; the rest go under "More". Use ↑ ↓ to reorder. Query is any Gmail search, e.g. <code>is:unread</code>, <code>label:work</code>.</p>
+<script src="popup.js"></script>
